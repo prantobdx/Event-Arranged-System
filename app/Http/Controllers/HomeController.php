@@ -2,6 +2,12 @@
 
 namespace App\Http\Controllers;
 
+
+Use App\Auth;
+Use App\Blogs;
+use App\Events;
+use Illuminate\support\Facades\Hash;
+
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -26,15 +32,22 @@ class HomeController extends Controller
         return view('home');
     }
 
-    public function showblog()
-    {
-        return view('blog');
-    }
     
      public function about_us()
-    {
+     {
         return view('about_us');
-    }
+     }
     
+     public function showblog()
+      {
+       $blog = Blogs::all();
+       return view('blog-page')->with(compact('blog'));
+     }
+
+      public function showEventDetails($id)
+    {
+        $event = Events::find($id);
+        return view('event_details')->with(compact('event'));
+    }
 
 }

@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
+  
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
+    <title> EBS @yield('title')</title>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
@@ -19,7 +19,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    
+
    
    <!--Template css link-->
 
@@ -92,7 +92,7 @@
                 <div class="container">
                     <div class="navbar navbar-inverse">
                         <div class="navbar-header">
-                            <a href="/home" class="navbar-brand"><img src="{{ asset('frontend/images/Event-book-logo2.png') }}" alt=""></a>
+                            <a href="/home" class="navbar-brand"><img src="{{ asset('frontend/images/Event-book-Final-version-1.png') }}" alt=""></a>
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                 <span class="icon1-barMenu"></span>
                                 <span class="icon1-barMenu"></span>
@@ -104,7 +104,8 @@
                             <ul class="nav navbar-nav">
                                 <li class="@if(Route::current()->getName() == 'home') active @endif"><a href="{{route('home')}}">Home</a></li>
                                 
-                                <li class="@if(Route::current()->getName() == 'blog') active @endif"><a href="{{route('blog')}}">Blog</a></li>
+                                <li class="@if(Route::current()->getName() == 'blog') active @endif"><a href="{{route('blog')}}">Blogs</a></li>
+                                
                                 <li class="@if(Route::current()->getName() == 'about-us') active @endif"><a href="{{route('about-us')}}">About Us</a></li>
                             </ul>
                                 
@@ -122,7 +123,7 @@
                         </div>
                     </div>
                 </div>
-            </nav></br></br>
+            </nav>
     
 
         

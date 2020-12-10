@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Event-Booking-System</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
@@ -85,7 +85,7 @@
                     <b>Welcome to </b>
                 </div>
 
-                <div class="title m-b-md" style="color:tomato">
+                <div class="title m-b-md" style="color:Blue">
                    <b> Event-Booking-system <b>
                 </div>
             </div>
