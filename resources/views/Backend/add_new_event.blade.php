@@ -101,6 +101,7 @@
                         <option value="Birthday event">Birthday event</option>
                         <option value="event for holiday">event for holiday</option>
                         <option value="Tour event">Tour event</option>
+                        <option value="Tour event">Oraganiztional event</option>
 
                     </select>
                     </div>
