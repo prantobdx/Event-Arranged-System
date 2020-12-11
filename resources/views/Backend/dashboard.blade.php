@@ -28,7 +28,7 @@
 @section('main_content')
 
 <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
+    
     <section class="content-header">
       <h1>
         Dashboard
@@ -40,9 +40,9 @@
       </ol>
     </section>
 
-    <!-- Main content -->
+  
     <section class="content">
-      <!-- Small boxes (Stat box) -->
+      
       <div class="row">
         <div class="col-lg-3 col-xs-6">
           <div class="small-box bg-aqua">
@@ -57,7 +57,7 @@
             <a href="{{ route('admin.show-events') }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
-        <!-- ./col -->
+      
         <div class="col-lg-3 col-xs-6">
           <div class="small-box bg-green">
             <div class="inner">
@@ -71,7 +71,7 @@
             <a href="" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
-        <!-- ./col -->
+       
         <div class="col-lg-3 col-xs-6">
           <div class="small-box bg-yellow">
             <div class="inner">
@@ -85,12 +85,11 @@
             <a href="{{ route('admin.booking-list') }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
-        <!-- ./col -->
+        
       </div>
-      <!-- /.row -->
-      <!-- Main row -->
+      
       <div class="row">
-        <!-- Left col -->
+        
         <section class="col-lg-7 connectedSortable">
           <div class="box box-primary">
             <div class="box-header">
@@ -146,23 +145,23 @@
               </tfoot>
             </table>
             </div>
-            <!-- /.box-body -->
+           
             <div class="box-footer clearfix no-border">
             </div>
           </div>
-          <!-- /.box -->
+        
         </section>
        
         <section class="col-lg-5 connectedSortable">
-          <!-- Calendar -->
+         
           <div class="box box-solid bg-green-gradient">
             <div class="box-header">
               <i class="fa fa-calendar"></i>
 
               <h3 class="box-title">Calendar</h3>
-              <!-- tools box -->
+              
               <div class="pull-right box-tools">
-                <!-- button with a dropdown -->
+                
                 <div class="btn-group">
                   <button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown">
                     <i class="fa fa-bars"> </i> </button>
@@ -178,24 +177,24 @@
                 <button type="button" class="btn btn-success btn-sm" data-widget="remove"><i class="fa fa-times"></i>
                 </button>
               </div>
-              <!-- /. tools -->
+             
             </div>
 
             <div class="box-body no-padding">
-              <!--The calendar -->
+              
               <div id="calendar" style="width: 100%"></div>
             </div>
-            <!-- /.box-body -->
+            
           </div>
-          <!-- /.box -->
+         
 
         </section>
-        <!-- right col -->
+        
       </div>
       
 
     </section>
-    <!-- /.content -->
+   
 </div>
 
     
